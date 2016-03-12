@@ -42,6 +42,7 @@ defmodule Ecto.Mixfile do
      {:postgrex, "~> 0.11.0", optional: true},
      {:mariaex, "~> 0.5 or ~> 0.6", optional: true},
      {:poison, "~> 1.0", optional: true},
+     {:power_assert, "~> 0.0.8", only: :test},
      {:ex_doc, "~> 0.11", only: :docs},
      {:earmark, "~> 0.1", only: :docs},
      {:inch_ex, ">= 0.0.0", only: :docs}]

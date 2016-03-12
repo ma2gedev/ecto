@@ -1,7 +1,7 @@
 Code.require_file "../../integration_test/support/types.exs", __DIR__
 
 defmodule Ecto.SchemaTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import ExUnit.CaptureIO
 

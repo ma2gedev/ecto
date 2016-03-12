@@ -1,5 +1,5 @@
 defmodule Ecto.Query.Builder.OrderByTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Query.Builder.OrderBy
   doctest Ecto.Query.Builder.OrderBy

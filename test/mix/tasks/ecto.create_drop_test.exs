@@ -1,5 +1,5 @@
 defmodule Mix.Tasks.Ecto.CreateDropTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Mix.Tasks.Ecto.Create
   alias Mix.Tasks.Ecto.Drop

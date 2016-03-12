@@ -1,5 +1,5 @@
 defmodule Ecto.Pool.TransactionTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Ecto.Pool
   alias Ecto.TestPool

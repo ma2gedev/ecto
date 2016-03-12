@@ -1,5 +1,5 @@
 defmodule Ecto.Query.Builder.GroupByTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Query.Builder.GroupBy
   doctest Ecto.Query.Builder.GroupBy

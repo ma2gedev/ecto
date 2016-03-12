@@ -324,7 +324,7 @@ defmodule Ecto.Adapters.SQL do
 
       defmodule PostTest do
         # Tests that use the shared repository cannot be async
-        use ExUnit.Case
+        use PowerAssert
 
         setup do
           # Go back to a clean slate at the beginning of every test
@@ -342,7 +342,7 @@ defmodule Ecto.Adapters.SQL do
 
       defmodule PostTest do
         # Tests that use the shared repository cannot be async
-        use ExUnit.Case
+        use PowerAssert
 
         setup_all do
           # Wrap this case in a transaction

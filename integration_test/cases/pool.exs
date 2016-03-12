@@ -1,7 +1,7 @@
 Code.require_file "../support/file_helpers.exs", __DIR__
 
 defmodule Ecto.Integration.PoolTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   pool =
     case System.get_env("ECTO_POOL") || "poolboy" do

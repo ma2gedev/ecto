@@ -1,5 +1,5 @@
 defmodule Ecto.EmbeddedTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   doctest Ecto.Embedded
 
   alias Ecto.Changeset

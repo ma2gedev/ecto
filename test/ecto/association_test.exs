@@ -1,5 +1,5 @@
 defmodule Ecto.AssociationTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   doctest Ecto.Association
 
   import Ecto

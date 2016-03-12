@@ -1,5 +1,5 @@
 defmodule Mix.Tasks.Ecto.Gen.RepoTest do
-  use ExUnit.Case
+  use PowerAssert
 
   import Support.FileHelpers
   import Mix.Tasks.Ecto.Gen.Repo, only: [run: 1]

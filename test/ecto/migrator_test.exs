@@ -1,5 +1,5 @@
 defmodule Ecto.MigratorTest do
-  use ExUnit.Case
+  use PowerAssert
 
   import Support.FileHelpers
   import Ecto.Migrator

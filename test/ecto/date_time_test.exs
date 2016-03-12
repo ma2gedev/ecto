@@ -1,5 +1,5 @@
 defmodule Ecto.DateTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   @date %Ecto.Date{year: 2015, month: 12, day: 31}
 
@@ -79,7 +79,7 @@ defmodule Ecto.DateTest do
 end
 
 defmodule Ecto.TimeTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   @time %Ecto.Time{hour: 23, min: 50, sec: 07, usec: 0}
   @time_zero %Ecto.Time{hour: 23, min: 50, sec: 0, usec: 0}
@@ -189,7 +189,7 @@ defmodule Ecto.TimeTest do
 end
 
 defmodule Ecto.DateTimeTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   @datetime %Ecto.DateTime{year: 2015, month: 1, day: 23, hour: 23, min: 50, sec: 07, usec: 0}
   @datetime_zero %Ecto.DateTime{year: 2015, month: 1, day: 23, hour: 23, min: 50, sec: 0, usec: 0}

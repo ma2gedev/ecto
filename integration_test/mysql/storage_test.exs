@@ -1,5 +1,5 @@
 defmodule Ecto.Integration.StorageTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Ecto.Adapters.MySQL
 

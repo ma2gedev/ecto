@@ -1,5 +1,5 @@
 defmodule Ecto.Pool.RunTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Ecto.TestPool
 

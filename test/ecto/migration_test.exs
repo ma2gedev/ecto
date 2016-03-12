@@ -2,7 +2,7 @@ defmodule Ecto.MigrationTest do
   # Although this test uses the Ecto.Migration.Runner which
   # is global state, we can run it async as long as this is
   # the only test case that uses the Runner in async mode.
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   use Ecto.Migration
 

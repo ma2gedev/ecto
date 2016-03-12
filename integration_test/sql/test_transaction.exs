@@ -1,5 +1,5 @@
 defmodule Ecto.Integration.TestTransactionTest do
-  use ExUnit.Case
+  use PowerAssert
 
   alias Ecto.Integration.TestRepo
   alias Ecto.Pool

@@ -1,5 +1,5 @@
 defmodule Mix.Tasks.Ecto.RollbackTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Mix.Tasks.Ecto.Rollback, only: [run: 2]
 

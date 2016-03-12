@@ -1,5 +1,5 @@
 defmodule Ecto.Query.Builder.DistinctTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Query.Builder.Distinct
   doctest Ecto.Query.Builder.Distinct

@@ -16,7 +16,7 @@ defmodule Inspect.Comment do
 end
 
 defmodule Ecto.Query.InspectTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   import Ecto.Query
 
   alias Inspect.Post

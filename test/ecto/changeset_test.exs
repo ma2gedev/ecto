@@ -1,5 +1,5 @@
 defmodule Ecto.ChangesetTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   import Ecto.Changeset
 
   defmodule Comment do

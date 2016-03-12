@@ -1,5 +1,5 @@
 defmodule Ecto.Repo.AssociationTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto, only: [put_meta: 2]
   require Ecto.TestRepo, as: TestRepo

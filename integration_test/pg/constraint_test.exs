@@ -1,5 +1,5 @@
 defmodule Ecto.Integration.ConstraintTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Ecto.Integration.TestRepo
   import Ecto.Migrator, only: [up: 4, down: 4]

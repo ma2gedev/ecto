@@ -1,5 +1,5 @@
 defmodule Ecto.Integration.MigrationTest do
-  use ExUnit.Case
+  use PowerAssert
 
   alias Ecto.Integration.TestRepo
 

@@ -1,5 +1,5 @@
 defmodule Ecto.Repo.EmbeddedTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Ecto.TestRepo, as: TestRepo
 

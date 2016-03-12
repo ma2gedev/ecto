@@ -1,5 +1,5 @@
 defmodule Ecto.Repo.SupervisorTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Repo.Supervisor
 

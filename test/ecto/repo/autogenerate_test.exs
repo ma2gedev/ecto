@@ -1,7 +1,7 @@
 alias Ecto.TestRepo
 
 defmodule Ecto.Repo.AutogenerateTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   defmodule Default do
     use Ecto.Schema

@@ -1,5 +1,5 @@
 defmodule Ecto.RepoTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Query
   import Ecto, only: [put_meta: 2]

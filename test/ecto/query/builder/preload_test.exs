@@ -1,7 +1,7 @@
 Code.require_file "../../../support/eval_helpers.exs", __DIR__
 
 defmodule Ecto.Query.Builder.PreloadTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Query.Builder.Preload
   doctest Ecto.Query.Builder.Preload

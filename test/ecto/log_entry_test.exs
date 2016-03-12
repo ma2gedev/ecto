@@ -1,5 +1,5 @@
 defmodule Ecto.LogEntryTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias  Ecto.LogEntry
   import Ecto.LogEntry

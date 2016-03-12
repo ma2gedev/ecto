@@ -1,5 +1,6 @@
 defmodule Support.FileHelpers do
-  import ExUnit.Assertions
+  import ExUnit.Assertions, except: [assert: 1, assert: 2]
+  import PowerAssert.Assertion
 
   @doc """
   Returns the `tmp_path` for tests.

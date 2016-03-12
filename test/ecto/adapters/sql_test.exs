@@ -1,5 +1,5 @@
 defmodule Ecto.Adapters.SQLTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   defmodule Adapter do
     use Ecto.Adapters.SQL

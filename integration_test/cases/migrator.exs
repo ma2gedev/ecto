@@ -1,7 +1,7 @@
 Code.require_file "../support/file_helpers.exs", __DIR__
 
 defmodule Ecto.Integration.MigratorTest do
-  use ExUnit.Case
+  use PowerAssert
 
   import Support.FileHelpers
   import Ecto.Migrator, only: [migrated_versions: 1]

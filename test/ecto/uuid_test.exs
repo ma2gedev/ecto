@@ -1,5 +1,5 @@
 defmodule Ecto.UUIDTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   @test_uuid "601d74e4-a8d3-4b6e-8365-eddb4c893327"
   @test_uuid_binary <<0x60, 0x1D, 0x74, 0xE4, 0xA8, 0xD3, 0x4B, 0x6E,

@@ -1,5 +1,5 @@
 defmodule Ecto.Pools.SojournBroker.WorkerTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   alias Ecto.TestPool
   alias Ecto.TestPool.Connection

@@ -1,5 +1,5 @@
 defmodule Ecto.Query.Builder.FilterTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Query.Builder.Filter
   doctest Ecto.Query.Builder.Filter

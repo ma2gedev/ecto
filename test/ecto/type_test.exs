@@ -1,5 +1,5 @@
 defmodule Ecto.TypeTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   defmodule Custom do
     @behaviour Ecto.Type

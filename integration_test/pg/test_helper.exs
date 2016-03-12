@@ -57,6 +57,12 @@ end
 defmodule Ecto.Integration.Case do
   use ExUnit.CaseTemplate
 
+  using do
+    quote do
+      use PowerAssert
+    end
+  end
+
   setup_all do
     Ecto.Adapters.SQL.begin_test_transaction(TestRepo, [])
     on_exit fn -> Ecto.Adapters.SQL.rollback_test_transaction(TestRepo, []) end

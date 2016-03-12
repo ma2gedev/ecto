@@ -1,5 +1,5 @@
 defmodule Ecto.Query.Builder.LimitOffsetTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   import Ecto.Query
 

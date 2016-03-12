@@ -1,7 +1,7 @@
 defmodule Ecto.Integration.DeadlockTest do
   # We can keep this test async as long as it
   # is the only one accessing advisory locks
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
   require Logger
 
   @timeout 500

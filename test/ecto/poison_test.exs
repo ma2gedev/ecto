@@ -1,5 +1,5 @@
 defmodule Ecto.PoisonTest do
-  use ExUnit.Case, async: true
+  use PowerAssert, async: true
 
   test "encodes datetimes" do
     time = %Ecto.Time{hour: 1, min: 2, sec: 3}
